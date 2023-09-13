@@ -246,11 +246,21 @@
     color: #fff;
 }
 
+.main_content h5 {
+    margin-top: 1rem;
+    color: #fff;
+}
+
 .main_content--art p {
     margin: 5rem;
     font-size: 1.5rem;
     font-weight: 700;
     color: #fff;
+}
+
+.main_content--art h4 {
+    color: #fff;
+    text-align: center;
 }
 
 /* Mobile responsive */
