@@ -217,18 +217,6 @@
     padding: 0 50px;
 }
 
-.main_content h1 {
-    font-size: 4rem;
-    background-color: #EF3438;
-    background-image: linear-gradient(to top, #EF3438 0%, #FB771E 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    text-align: center;
-}
-
 .main_content h2 {
     font-size: 4rem;
     background-color: #EF3438;
@@ -242,38 +230,46 @@
 }
 
 .main_content p {
-    margin-top: 1rem;
     font-size: 2rem;
     font-weight: 700;
     color: #fff;
     text-align: center;
-    width: 50%; /* Largura desejada para a div */
-    margin: 0 auto; /* Margem automática para centralizar */
-    text-align: center; /* Centralizar o conteúdo dentro da div */
 }
 
-.main_content h5 {
-    width: 50%; /* Largura desejada para a div */
-    margin: 0 auto; /* Margem automática para centralizar */
-    text-align: center; /* Centralizar o conteúdo dentro da div */
-    margin-top: 4rem;
+.main__img--container {
+    margin-top: 5%;
+    text-align: center;
+}
+
+#main__img {
+    height:50%;
+    width: 50%;
+}
+
+.main__h4 {
     color: #fff;
+    font-size: 1rem;
+    text-align: center;
 }
 
 .main_content--art p {
-    width: 80%; /* Largura desejada para a div */
-    margin: 0 auto; /* Margem automática para centralizar */
-    text-align: center; /* Centralizar o conteúdo dentro da div */
     margin-top: 2rem;
     font-size: 1.5rem;
     font-weight: 700;
     color: #fff;
 }
 
+.main_content--art h2 {
+    color: #fff;
+    margin-top: 2rem;
+}
+
+.main_content--art--img {
+    margin-top: 5%;
+    text-align: left;
+}
+
 .main_content--art h4 {
-    width: 50%; /* Largura desejada para a div */
-    margin: 0 auto; /* Margem automática para centralizar */
-    text-align: center; /* Centralizar o conteúdo dentro da div */
     margin-top: 4rem;
     color: #fff;
     text-align: left;
@@ -310,14 +306,9 @@
         font-size: 1.5rem;
     }
 
-    .main__content--art p {
-        display: grid;
-        grid-template-columns: auto;
-        align-items: center;
-        justify-self: center;
-        width: 100%;
-        margin: 0 auto;
-        height: 90vh;
+    .main__btn {
+        padding: 12px 36px;
+        margin: 2.5rem 0;
     }
 }
 

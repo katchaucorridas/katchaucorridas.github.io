@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Kumbh Sans', sans-serif;
-    scroll-behavior: smooth;
 }
 
 .navbar {
@@ -30,8 +29,8 @@
 }
 
 #navbar__logo {
-    background-color: #EF3438;
-    background-image: linear-gradient(to top, #EF3438 0%, #FB771E 100%);
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #F338B5 0%, #ee95fa 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -67,7 +66,6 @@
     text-decoration: none;
     padding: 0 1rem;
     height: 100%;
-    transition: all 0.3s ease;
 }
 
 .navbar__btn {
@@ -89,7 +87,7 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #EF3438;
+    background: #F338B5;
     color: #fff;
 }
 
@@ -99,7 +97,7 @@
 }
 
 .navbar__links:hover {
-    color: #EF3438;
+    color: #F338B5;
     transition: all 0.3s ease;
 }
 
@@ -204,7 +202,7 @@
 }
 
 .main__container {
-    display: inline-table;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-self: center;
@@ -217,66 +215,83 @@
     padding: 0 50px;
 }
 
-.main_content h1 {
+.main__container h1 {
     font-size: 4rem;
-    background-color: #EF3438;
-    background-image: linear-gradient(to top, #EF3438 0%, #FB771E 100%);
+    background-color: #F338B5;
+    background-image: linear-gradient(to top, #f338B5 0%, #ee95fa 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    text-align: center;
 }
 
-.main_content h2 {
+.main__container h2 {
     font-size: 4rem;
-    background-color: #EF3438;
+    background-color: #F338B5;
     background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    text-align: center;
 }
 
-.main_content p {
+.main__container p {
     margin-top: 1rem;
     font-size: 2rem;
     font-weight: 700;
     color: #fff;
-    text-align: center;
-    width: 50%; /* Largura desejada para a div */
-    margin: 0 auto; /* Margem automática para centralizar */
-    text-align: center; /* Centralizar o conteúdo dentro da div */
 }
 
-.main_content h5 {
-    width: 50%; /* Largura desejada para a div */
-    margin: 0 auto; /* Margem automática para centralizar */
-    text-align: center; /* Centralizar o conteúdo dentro da div */
-    margin-top: 4rem;
+.main__btn {
+    font-size: 1rem;
+    background-image: linear-gradient(to top, #f338b5 0%, #ee95fa 100%);
+    padding: 14px 32px;
+    border: none;
+    border-radius: 4px;
     color: #fff;
-}
-
-.main_content--art p {
-    width: 80%; /* Largura desejada para a div */
-    margin: 0 auto; /* Margem automática para centralizar */
-    text-align: center; /* Centralizar o conteúdo dentro da div */
     margin-top: 2rem;
-    font-size: 1.5rem;
-    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+}
+
+.main__btn a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+}
+
+.main__btn:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #4837ff;
+    transition: all 0.35s;
+    border-radius: 4px;
+}
+
+.main__btn:hover {
     color: #fff;
 }
 
-.main_content--art h4 {
-    width: 50%; /* Largura desejada para a div */
-    margin: 0 auto; /* Margem automática para centralizar */
-    text-align: center; /* Centralizar o conteúdo dentro da div */
-    margin-top: 4rem;
-    color: #fff;
-    text-align: left;
+.main__btn:hover:after {
+    width: 100%;
+}
+
+.main__img--container {
+    text-align: center;
+}
+
+#main__img {
+    height: 80%;
+    width: 80%;
 }
 
 /* Mobile responsive */
@@ -310,14 +325,9 @@
         font-size: 1.5rem;
     }
 
-    .main__content--art p {
-        display: grid;
-        grid-template-columns: auto;
-        align-items: center;
-        justify-self: center;
-        width: 100%;
-        margin: 0 auto;
-        height: 90vh;
+    .main__btn {
+        padding: 12px 36px;
+        margin: 2.5rem 0;
     }
 }
 
@@ -331,8 +341,8 @@
 }
 
 .services h1 {
-    background-color: #EF3438;
-    background-image: linear-gradient( to right, #EF3438 0%, #FB771E 100%);
+    background-color: #F338B5;
+    background-image: linear-gradient( to right, #f338b5 0%, #ee95fa 100%);
     background-size:  100%;
     margin: 5rem;
     font-size: 2.5rem;
@@ -389,7 +399,7 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #EF3438;
+    background: #F338B5;
     position: absolute;
     top: 440px;
     left: 30px;

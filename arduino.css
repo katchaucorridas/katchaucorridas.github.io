@@ -217,17 +217,6 @@
     padding: 0 50px;
 }
 
-.main_content h1 {
-    font-size: 4rem;
-    background-color: #EF3438;
-    background-image: linear-gradient(to top, #EF3438 0%, #FB771E 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-}
-
 .main_content h2 {
     font-size: 4rem;
     background-color: #EF3438;
@@ -237,13 +226,14 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+    text-align: center;
 }
 
 .main_content p {
-    margin-top: 1rem;
     font-size: 2rem;
     font-weight: 700;
     color: #fff;
+    text-align: center;
 }
 
 .main__img--container {
@@ -263,10 +253,16 @@
 }
 
 .main_content--art p {
-    margin: 5rem;
+    margin-top: 2rem;
     font-size: 1.5rem;
     font-weight: 700;
     color: #fff;
+}
+
+.main_content--art h4 {
+    margin-top: 4rem;
+    color: #fff;
+    text-align: left;
 }
 
 /* Mobile responsive */
