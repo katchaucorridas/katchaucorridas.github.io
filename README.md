@@ -1,13 +1,13 @@
 # katchaucorridas.github.io
 
-Projeto Katchau: robô seguidor de linha.
+<h1>Projeto Katchau: robô seguidor de linha.</h1>
 
-Integrantes:
-Gabriel Constantino - > https://www.linkedin.com/in/gabriel-constantino/
-Gabriel Araújo 
-Israel Ueda
-Matheus Neri
+> Integrantes: <br>
++ Gabriel Constantino - > https://www.linkedin.com/in/gabriel-constantino/ <br>
++ Gabriel Araújo <br>
++ Israel Ueda <br>
++ Matheus Neri <br>
 
-Este repositório tem como objetivo documentar nossos passos na construção de um robô seguidor de linha, contruído com arduíno.
+<p> Este repositório tem como objetivo documentar nossos passos na construção de um robô seguidor de linha, contruído com arduíno.
 Programamos um site ao qual iremos alimentar com artigos e textos sobre o processo, além de também servir como exercício de programação web; onde usamos
-HTML, CSS e JavaScript.
+HTML, CSS e JavaScript. </p>
