@@ -3,7 +3,7 @@
 Projeto Katchau: robô seguidor de linha.
 
 Integrantes:
-Gabriel Constantino
+Gabriel Constantino - > https://www.linkedin.com/in/gabriel-constantino/
 Gabriel Araújo 
 Israel Ueda
 Matheus Neri
